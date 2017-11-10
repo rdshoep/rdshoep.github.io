@@ -2,7 +2,7 @@
 
 ## 个人信息
 
-姓名: 张良
+姓名： 张良
 
 性别： 男
 
@@ -60,21 +60,21 @@ Blog: [https://blog.rdshoep.com](https://blog.rdshoep.com)
 
 系统完全由本人使用Javascript快速实现，针对中南海香烟调研而扩展出来的复杂通用版本。
 
-支持题型： 单行问题、多行文本、单选、多选（其他、互斥选项）、下拉选择、文件上传、评分、验证码等；规则：多问题内容联合影响、表达式的条件判断（支持多题）、选项互斥／同步等
+相关技术栈：Koa@2、Sequence@3、React@15、Antd、Webpack@3、Babel@6
 
 借鉴koa-compose的实现了参加问卷的校验中间件;
-设计了可扩展的答题触发器出发一系列的自定义事件;
-使用redux-persist 支持未完成答题的数据缓存;
-并支持问卷功能的外部支持和自适用，已实现针对问卷的
 
-相关技术栈：Koa@2、Sequence@3、React@15、Antd、Webpack、Babel
+设计了可扩展的答题触发器出发一系列的自定义事件;
+
+使用redux-persist 支持未完成答题的数据缓存;
+
+并支持问卷功能的外部支持和自适用。
 
 ### [咪听活动移动端](http://m.miting.net.cn)
 
 2016/08 -- 2017-07
 
-系统使用前后分离的模式开发，使用Koa@1作为中间件负责前端页面的渲染。
-前端使用三层模版支持（编译层Nunjucks、服务端渲染和前端渲染artTemplate），Webpack、babel、Gulp、Sass
+系统使用前后分离的模式开发，使用Koa@1作为中间件负责前端页面的渲染。前端使用三层模版支持（编译层Nunjucks、服务端渲染和前端渲染artTemplate），并使用Webpack、babel、Gulp、Sass等工具进行编译打包处理。
 
 后期引入Reactjs，替代发活动、活动管理等复杂应用界面，相关页面支持服务器渲染和资源按需加载。
 
@@ -93,7 +93,7 @@ Blog: [https://blog.rdshoep.com](https://blog.rdshoep.com)
 早期使用RoboGuice、GreenDao、AsyncTask、EventBus、HttpClient/Volley，
 后期升级为Dagger2、RxJava、Retrofit、OkHttp。
 
-项目中我解决了：运动软件真实使用情况下的软件保活问题、在记录数据时的运动数据中断恢复、Android GPS点的动态取舍、支持Android Wear、并对早期的MPAndroidChart进行代码层修改，支持x轴为数据格式情况下的数据展示等等
+我在项目中解决了：运动软件真实使用情况下的软件保活问题、在记录数据时的运动数据中断恢复、Android GPS点的动态取舍、支持Android Wear、并对早期的MPAndroidChart进行代码层修改，支持x轴为数据格式情况下的数据展示等等
 
 ### 其他个人项目
 
